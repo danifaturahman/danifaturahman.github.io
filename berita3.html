@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BERTA Terkini</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+
+      body {
+        background-color: #f0f0f0;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: white;
+      }
+
+      /* Header styles */
+      header {
+        padding: 10px 20px;
+        border-bottom: 1px solid #e0e0e0;
+      }
+
+      .logo {
+        color: #3f51b5;
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      .logo span {
+        color: #ff6f00;
+      }
+
+      /* Navigation */
+      nav {
+        background-color: #3f51b5;
+        padding: 10px 0;
+        color: white;
+      }
+
+      nav ul {
+        display: flex;
+        list-style: none;
+        padding: 0 20px;
+      }
+
+      nav ul li {
+        margin-right: 15px;
+      }
+
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+      }
+
+      /* Secondary navigation */
+      .subnav {
+        background-color: #f5f5f5;
+        padding: 10px 20px;
+        border-bottom: 1px solid #e0e0e0;
+      }
+
+      .subnav ul {
+        display: flex;
+        list-style: none;
+      }
+
+      .subnav ul li {
+        margin-right: 15px;
+        font-size: 12px;
+      }
+
+      .subnav ul li a {
+        color: #333;
+        text-decoration: none;
+      }
+
+      /* Breadcrumb */
+      .breadcrumb {
+        padding: 10px 20px;
+        font-size: 12px;
+        color: #666;
+      }
+
+      .breadcrumb a {
+        color: #666;
+        text-decoration: none;
+      }
+
+      /* Article styles */
+      .article {
+        padding: 20px;
+      }
+
+      .article h1 {
+        font-size: 24px;
+        color: #3f51b5;
+        margin-bottom: 15px;
+      }
+
+      .article-meta {
+        font-size: 12px;
+        color: #666;
+        margin-bottom: 20px;
+      }
+
+      .article-meta span {
+        margin-right: 10px;
+      }
+
+      .article-image {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+      }
+
+      .article-content {
+        line-height: 1.6;
+        margin-bottom: 30px;
+      }
+
+      /* Advertisement */
+      .ad-box {
+        background-color: #0c3866;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        margin: 20px 0;
+      }
+
+      .ad-box h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      .ad-box p {
+        font-size: 14px;
+        margin-bottom: 15px;
+      }
+
+      .ad-box .discount {
+        font-size: 24px;
+        font-weight: bold;
+        color: yellow;
+        margin: 10px 0;
+      }
+
+      .ad-button {
+        background-color: #ff6f00;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      /* Article footer */
+      .article-footer {
+        padding: 20px;
+        border-top: 1px solid #e0e0e0;
+        font-size: 12px;
+      }
+
+      .article-footer p {
+        margin-bottom: 10px;
+      }
+
+      .share-buttons {
+        margin-top: 15px;
+      }
+
+      .share-button {
+        background-color: #eee;
+        color: #333;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 3px;
+        margin-right: 5px;
+        font-size: 12px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">berta<span>news</span></div>
+      </header>
+
+      <!-- <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Nasional</a></li>
+          <li><a href="#">Internasional</a></li>
+          <li><a href="#">Ekonomi</a></li>
+          <li><a href="#">Olahraga</a></li>
+          <li><a href="#">Teknologi</a></li>
+          <li><a href="#">Hiburan</a></li>
+          <li><a href="#">Gaya Hidup</a></li>
+          <li><a href="#">Kolom</a></li>
+        </ul>
+      </nav>
+
+      <div class="subnav">
+        <ul>
+          <li><a href="#">detikX</a></li>
+          <li><a href="#">Peristiwa</a></li>
+          <li><a href="#">Jakarta</a></li>
+          <li><a href="#">Fokus Berita</a></li>
+          <li><a href="#">Suara Pembaca</a></li>
+          <li><a href="#">Mengenal Konten CICI*</a></li>
+        </ul>
+      </div> -->
+
+      <div class="breadcrumb">
+        <a href="#">bertaNews</a> &gt; <a href="#">Jakarta</a>
+      </div>
+
+      <div class="article">
+        <h1>DKI Modernisasi Sistem Perpajakan Melalui Penerapan E-TRAPT</h1>
+
+        <div class="article-meta">
+          <span>Penulis: Aldi Geri Lumban Tobing - detikNews</span>
+          <span>Rabu, 09 April 2025 19:07 WIB</span>
+        </div>
+
+        <img
+          class="article-image"
+          src="img/blok3.jpg"
+          alt="Masjid Istiqlal Jakarta"
+        />
+
+        <div class="article-content">
+          <p>
+            <strong>Jakarta</strong> - Badan Pendapatan Daerah (Bapenda)
+            Provinsi DKI Jakarta membuat satu langkah inovatif dengan penerapan
+            sistem online Electronic Transaction Perporation Agent atau E-TRAPT.
+          </p>
+
+          <h2>"Ini sebagai bentuk apresiasi atas kepatuhan Wajib Pajak,"</h2>
+
+          <p>
+            E-TRAPT merupakan platform atau alat pengumpulan data transaksi yang
+            terdiri dari bermacam-macam sumber data sehingga proses konsolidasi
+            data menjadi lebih cepat, tepat dan akurat serta dapat membantu
+            Wajib Pajak dalam melaporkan dan membayar kewajiban perpajakannya
+            dengan mudah. E-TRAPT berbentuk Agent Software bukan perangkat
+            tapping box. Penerapan ini sejalan dengan diterbitkannya Peraturan
+            Gubernur Provinsi DKI Jakarta Nomor 2 Tahun 2022 tentang Perubahan
+            Atas Peraturan Gubernur Nomor 98 Tahun 2019 tentang Pelaporan Data
+            Transaksi Usaha Wajib Pajak Secara Elektronik.
+          </p>
+
+          <p>
+            Pada pasal 3 ayat (1) disebutkan bahwa Wajib Pajak wajib melaporkan
+            seluruh data transaksi usahanya yang merupakan objek pajak daerah
+            secara elektronik. Selain itu, Wajib Pajak juga wajib menerima
+            pemasangan perangkat online dari petugas yang ditunjuk oleh Bapenda.
+            Kepala Bapenda DKI Jakarta, Lusiana Herawati mengatakan, Pemprov DKI
+            Jakarta tidak hanya memberikan kemudahan dalam pembayaran dan
+            pelaporan pajak, tetapi juga menawarkan insentif khusus bagi setiap
+            Wajib Pajak yang menerapkan E-TRAPT. “Ini sebagai bentuk apresiasi
+            atas kepatuhan Wajib Pajak,” ujarnya, Rabu (9/4). Ia menyampaikan,
+            wajib pajak tidak hanya menikmati proses perpajakan yang lebih
+            praktis dan efisien dengan sistem ini, tetapi juga berkesempatan
+            mendapatkan manfaat tambahan sebagai penghargaan atas kontribusinya
+            dalam mendukung pembangunan Jakarta yang lebih maju dan transparan.
+            Lusiana menjelaskan, penerapan E-TRAPT merupakan langkah besar dalam
+            modernisasi sistem perpajakan di Jakarta. Dengan sistem ini,
+            pelaporan pajak menjadi lebih transparan, akurat, dan efisien.
+            “Diharapkan seluruh wajib pajak dapat beralih ke sistem ini ke
+            depannya, agar administrasi pajak semakin tertata dengan optimal.
+            Pemerintah juga terus mensosialisasikan dan memberikan kemudahan
+            dalam proses transisi ke sistem ini agar manfaatnya dapat dirasakan
+            oleh semua pihak,” tandasnya. Sebagai informasi, pemasangan
+            perangkat E-TRAPT akan dilakukan langsung oleh tim Bapenda kepada
+            wajib pajak. Bagi wajib pajak lama atau baru yang belum online
+            transaksinya, pemasangan E-TRAPT akan dilaksanakan oleh tim
+            implementor E-TRAPT Bapenda berdasarkan rekomendasi dari UPPPD dan
+            Suku Badan. Atau Wajib Pajak dapat langsung mengajukan permohonan
+            mandiri untuk pemasangan sistem ini dengan mengirimkan permohonan
+            kepada UPPPD atau Bapenda DKI Jakarta. Berikut Cara Kerja E-TRAPT:
+            E-TRAPT bekerja dengan membaca data transaksi dari berbagai sumber
+            yang telah diberikan akses. Data tersebut kemudian akan di-capture
+            dan dikirimkan langsung ke server Badan Pendapatan Daerah (Bapenda)
+            DKI Jakarta. Berdasarkan data transaksi yang telah terekam tersebut,
+            sistem akan memberikan usulan jumlah pajak terutang yang disetorkan
+            kepada Pemprov DKI Jakarta pada saat wajib pajak akan melakukan
+            pembayaran melalui portal: pajakonline.jakarta.go.id. Usulan jumlah
+            tersebut masih dapat disesuaikan kembali oleh wajib pajak jika ada
+            hal-hal yang belum terekam oleh sistem. Tidak hanya itu, pelaporan
+            pajak pun menjadi lebih sederhana. Wajib Pajak yang telah
+            menggunakan E-TRAPT tidak perlu lagi mengirimkan rincian transaksi
+            secara manual untuk pelaporan masa. Cukup dengan mengisi SPTPD
+            (Surat Pemberitahuan Pajak Daerah), laporan sudah dapat disampaikan
+            dengan cepat dan mudah. Dengan adanya sistem ini, proses perpajakan
+            menjadi lebih praktis, transparan, dan efisien, sehingga Wajib Pajak
+            dapat lebih fokus pada pengembangan usaha tanpa terbebani proses
+            administrasi yang rumit.
+          </p>
+        </div>
+
+        <!-- <div class="ad-box">
+          <h3>BOORCABIN</h3>
+          <p>
+            Nikmati diskon BOORCABIN untuk villa yang menawarkan pemandangan
+            underwater dari kamar Anda
+          </p>
+          <div class="discount">DISKON 5%</div>
+          <p>dengan kode DETIK5</p>
+          <p>Periode promo: 20 April - 31 Mei 2023</p>
+          <button class="ad-button">PESAN SEKARANG</button>
+        </div>
+      </div> -->
+
+      <div class="article-footer">
+        <p>Tags: #E-TRAPT #DKI #2025 #Jakarta</p>
+        <!-- <p>Bagikan artikel ini:</p>
+        <div class="share-buttons">
+          <button class="share-button">Facebook</button>
+          <button class="share-button">Twitter</button>
+          <button class="share-button">WhatsApp</button>
+          <button class="share-button">Email</button>
+        </div> -->
+      </div>
+    </div>
+  </body>
+</html>

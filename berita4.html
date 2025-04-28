@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BERTA Terkini</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+
+      body {
+        background-color: #f0f0f0;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: white;
+      }
+
+      /* Header styles */
+      header {
+        padding: 10px 20px;
+        border-bottom: 1px solid #e0e0e0;
+      }
+
+      .logo {
+        color: #3f51b5;
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      .logo span {
+        color: #ff6f00;
+      }
+
+      /* Navigation */
+      nav {
+        background-color: #3f51b5;
+        padding: 10px 0;
+        color: white;
+      }
+
+      nav ul {
+        display: flex;
+        list-style: none;
+        padding: 0 20px;
+      }
+
+      nav ul li {
+        margin-right: 15px;
+      }
+
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+      }
+
+      /* Secondary navigation */
+      .subnav {
+        background-color: #f5f5f5;
+        padding: 10px 20px;
+        border-bottom: 1px solid #e0e0e0;
+      }
+
+      .subnav ul {
+        display: flex;
+        list-style: none;
+      }
+
+      .subnav ul li {
+        margin-right: 15px;
+        font-size: 12px;
+      }
+
+      .subnav ul li a {
+        color: #333;
+        text-decoration: none;
+      }
+
+      /* Breadcrumb */
+      .breadcrumb {
+        padding: 10px 20px;
+        font-size: 12px;
+        color: #666;
+      }
+
+      .breadcrumb a {
+        color: #666;
+        text-decoration: none;
+      }
+
+      /* Article styles */
+      .article {
+        padding: 20px;
+      }
+
+      .article h1 {
+        font-size: 24px;
+        color: #3f51b5;
+        margin-bottom: 15px;
+      }
+
+      .article-meta {
+        font-size: 12px;
+        color: #666;
+        margin-bottom: 20px;
+      }
+
+      .article-meta span {
+        margin-right: 10px;
+      }
+
+      .article-image {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+      }
+
+      .article-content {
+        line-height: 1.6;
+        margin-bottom: 30px;
+      }
+
+      /* Advertisement */
+      .ad-box {
+        background-color: #0c3866;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        margin: 20px 0;
+      }
+
+      .ad-box h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      .ad-box p {
+        font-size: 14px;
+        margin-bottom: 15px;
+      }
+
+      .ad-box .discount {
+        font-size: 24px;
+        font-weight: bold;
+        color: yellow;
+        margin: 10px 0;
+      }
+
+      .ad-button {
+        background-color: #ff6f00;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      /* Article footer */
+      .article-footer {
+        padding: 20px;
+        border-top: 1px solid #e0e0e0;
+        font-size: 12px;
+      }
+
+      .article-footer p {
+        margin-bottom: 10px;
+      }
+
+      .share-buttons {
+        margin-top: 15px;
+      }
+
+      .share-button {
+        background-color: #eee;
+        color: #333;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 3px;
+        margin-right: 5px;
+        font-size: 12px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">berta<span>news</span></div>
+      </header>
+
+      <!-- <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Nasional</a></li>
+          <li><a href="#">Internasional</a></li>
+          <li><a href="#">Ekonomi</a></li>
+          <li><a href="#">Olahraga</a></li>
+          <li><a href="#">Teknologi</a></li>
+          <li><a href="#">Hiburan</a></li>
+          <li><a href="#">Gaya Hidup</a></li>
+          <li><a href="#">Kolom</a></li>
+        </ul>
+      </nav>
+
+      <div class="subnav">
+        <ul>
+          <li><a href="#">detikX</a></li>
+          <li><a href="#">Peristiwa</a></li>
+          <li><a href="#">Jakarta</a></li>
+          <li><a href="#">Fokus Berita</a></li>
+          <li><a href="#">Suara Pembaca</a></li>
+          <li><a href="#">Mengenal Konten CICI*</a></li>
+        </ul>
+      </div> -->
+
+      <div class="breadcrumb">
+        <a href="#">bertaNews</a> &gt; <a href="#">Jakarta</a>
+      </div>
+
+      <div class="article">
+        <h1>Sebagian Jakarta diguyur hujan ringan pada Minggu ini</h1>
+
+        <div class="article-meta">
+          <span>Penulis: Lia Wanadriani Santosa - antara2025</span>
+          <span>Minggu, 27 April 2025 06:31 WIB</span>
+        </div>
+
+        <img
+          class="article-image"
+          src="img/blok4.jpeg"
+          alt="Masjid Istiqlal Jakarta"
+        />
+
+        <div class="article-content">
+          <p>
+            <strong>Jakarta</strong> -  Badan Meteorologi, Klimatologi dan Geofisika (BMKG) memprakirakan cuaca di sebagian besar wilayah administrasi Jakarta cerah berawan pada Minggu pagi hingga siang nanti.
+          </p>
+
+          <h2>"Warga berolahraga di tengah hujan saat Hari Bebas Kendaraan Bermotor (HBKB) di Bundaran HI, Jakarta"</h2>
+
+          <p>
+            Jakarta Barat cerah berawan sejak pagi hingga siang ini dan mulai diguyur hujan ringan sekitar pukul 19.00 WIB, lalu kembali cerah berawan pada pukul 22.00 WIB. Suhu rata-rata Jakarta Barat, yakni 27 derajat Celcius.
+
+            Jakarta Pusat cerah pagi ini, lalu cerah berawan pada siang sekitar pukul 13.00 WIB dan mulai dilanda hujan ringan sekitar pukul 19.00 WIB. Sekitar pukul 22.00 WIB wilayah itu kembali cerah berawan. Suhu rata-rata Jakarta Pusat 27 derajat Celcius.
+            
+            Jakarta Selatan dan Jakarta Timur juga cerah berawan pagi hingga siang hari ini, kemudian berawan tebal sekitar pukul 16.00 WIB.
+            
+            Kedua wilayah itu mulai diguyur hujan ringan pukul 19.00 WIB, dan kembali cerah berawan pada pukul 22.00 WIB. Suhu rata-rata Jakarta Selatan 26 derajat Celcius, sementara Jakarta Timur 27 derajat Celcius.
+            
+            
+            Jakarta Utara cerah berawan pagi ini, kemudian berawan pada siang hari dan seperti wilayah-wilayah Jakarta lainnya, akan dilanda hujan ringan sekitar pukul 19.00 WIB. Suhu rata-rata wilayah itu 27 derajat Celcius.
+            
+            Sementara itu, Kepulauan Seribu berawan sepanjang hari dengan suhu rata-rata 28 derajat Celcius.
+          </p>
+
+        </div>
+
+        <!-- <div class="ad-box">
+          <h3>BOORCABIN</h3>
+          <p>
+            Nikmati diskon BOORCABIN untuk villa yang menawarkan pemandangan
+            underwater dari kamar Anda
+          </p>
+          <div class="discount">DISKON 5%</div>
+          <p>dengan kode DETIK5</p>
+          <p>Periode promo: 20 April - 31 Mei 2023</p>
+          <button class="ad-button">PESAN SEKARANG</button>
+        </div>
+      </div> -->
+
+      <div class="article-footer">
+        <p>Tags: #cuaca #hujan #2025 #Jakarta</p>
+        <!-- <p>Bagikan artikel ini:</p>
+        <div class="share-buttons">
+          <button class="share-button">Facebook</button>
+          <button class="share-button">Twitter</button>
+          <button class="share-button">WhatsApp</button>
+          <button class="share-button">Email</button>
+        </div> -->
+      </div>
+    </div>
+  </body>
+</html>

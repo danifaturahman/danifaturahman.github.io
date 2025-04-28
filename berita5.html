@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BERTA Terkini</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+
+      body {
+        background-color: #f0f0f0;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: white;
+      }
+
+      /* Header styles */
+      header {
+        padding: 10px 20px;
+        border-bottom: 1px solid #e0e0e0;
+      }
+
+      .logo {
+        color: #3f51b5;
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      .logo span {
+        color: #ff6f00;
+      }
+
+      /* Navigation */
+      nav {
+        background-color: #3f51b5;
+        padding: 10px 0;
+        color: white;
+      }
+
+      nav ul {
+        display: flex;
+        list-style: none;
+        padding: 0 20px;
+      }
+
+      nav ul li {
+        margin-right: 15px;
+      }
+
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+      }
+
+      /* Secondary navigation */
+      .subnav {
+        background-color: #f5f5f5;
+        padding: 10px 20px;
+        border-bottom: 1px solid #e0e0e0;
+      }
+
+      .subnav ul {
+        display: flex;
+        list-style: none;
+      }
+
+      .subnav ul li {
+        margin-right: 15px;
+        font-size: 12px;
+      }
+
+      .subnav ul li a {
+        color: #333;
+        text-decoration: none;
+      }
+
+      /* Breadcrumb */
+      .breadcrumb {
+        padding: 10px 20px;
+        font-size: 12px;
+        color: #666;
+      }
+
+      .breadcrumb a {
+        color: #666;
+        text-decoration: none;
+      }
+
+      /* Article styles */
+      .article {
+        padding: 20px;
+      }
+
+      .article h1 {
+        font-size: 24px;
+        color: #3f51b5;
+        margin-bottom: 15px;
+      }
+
+      .article-meta {
+        font-size: 12px;
+        color: #666;
+        margin-bottom: 20px;
+      }
+
+      .article-meta span {
+        margin-right: 10px;
+      }
+
+      .article-image {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+      }
+
+      .article-content {
+        line-height: 1.6;
+        margin-bottom: 30px;
+      }
+
+      /* Advertisement */
+      .ad-box {
+        background-color: #0c3866;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        margin: 20px 0;
+      }
+
+      .ad-box h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      .ad-box p {
+        font-size: 14px;
+        margin-bottom: 15px;
+      }
+
+      .ad-box .discount {
+        font-size: 24px;
+        font-weight: bold;
+        color: yellow;
+        margin: 10px 0;
+      }
+
+      .ad-button {
+        background-color: #ff6f00;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      /* Article footer */
+      .article-footer {
+        padding: 20px;
+        border-top: 1px solid #e0e0e0;
+        font-size: 12px;
+      }
+
+      .article-footer p {
+        margin-bottom: 10px;
+      }
+
+      .share-buttons {
+        margin-top: 15px;
+      }
+
+      .share-button {
+        background-color: #eee;
+        color: #333;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 3px;
+        margin-right: 5px;
+        font-size: 12px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">berta<span>news</span></div>
+      </header>
+
+      <!-- <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Nasional</a></li>
+          <li><a href="#">Internasional</a></li>
+          <li><a href="#">Ekonomi</a></li>
+          <li><a href="#">Olahraga</a></li>
+          <li><a href="#">Teknologi</a></li>
+          <li><a href="#">Hiburan</a></li>
+          <li><a href="#">Gaya Hidup</a></li>
+          <li><a href="#">Kolom</a></li>
+        </ul>
+      </nav>
+
+      <div class="subnav">
+        <ul>
+          <li><a href="#">detikX</a></li>
+          <li><a href="#">Peristiwa</a></li>
+          <li><a href="#">Jakarta</a></li>
+          <li><a href="#">Fokus Berita</a></li>
+          <li><a href="#">Suara Pembaca</a></li>
+          <li><a href="#">Mengenal Konten CICI*</a></li>
+        </ul>
+      </div> -->
+
+      <div class="breadcrumb">
+        <a href="#">bertaNews</a> &gt; <a href="#">Jakarta</a>
+      </div>
+
+      <div class="article">
+        <h1>SIM Keliling hanya tersedia di dua wilayah di Jakarta</h1>
+
+        <div class="article-meta">
+          <span>Penulis: Lia Wanadriani Santosa - antara2025</span>
+          <span>Minggu, 27 April 2025 06:22 WIB</span>
+        </div>
+
+        <img
+          class="article-image"
+          src="img/blok5.jpeg"
+          alt="Masjid Istiqlal Jakarta"
+        />
+
+        <div class="article-content">
+          <p>
+            <strong>Jakarta</strong> -Direktorat Lalu Lintas (Ditlantas) Polda Metro Jaya masih menyediakan layanan Surat Izin Mengemudi (SIM) Keliling namun hanya di dua wilayah Jakarta, sedangkan di hari kerja biasanya di lima wilayah.
+          </p>
+
+          <h2>"Layanan ini untuk membantu warga dalam memperpanjang masa berlaku syarat legal berkendara itu."</h2>
+
+          <p>
+            Polda Metro Jaya melalui akun X @tmcpoldametro pada Minggu menyampaikan gerai SIM ini dibuka pukul 07.00 hingga 12.00 WIB.
+
+            Adapun lokasinya di Jakarta Timur, yakni di Jalan Raden Inten Kalimalang Samping McD Duren Sawit dan di Jakarta Barat di Jalan Panjang samping Indomaret Kebon Jeruk.
+            
+            Masyarakat harus menyiapkan dan melengkapi persyaratan yang dibutuhkan dan biaya administrasi sebelum mendatangi lokasi perpanjangan masa berlaku SIM.
+          </p>
+
+          <p>
+            Persyaratan yang dibutuhkan, yakni fotokopi KTP yang masih berlaku, SIM lama yang asli dan masih berlaku, bukti pemeriksaan kesehatan serta bukti tes psikologi melalui aplikasi Simpel Pol.
+
+            Layanan mobil SIM Keliling ini hanya dapat memperpanjang SIM yang masih berlaku untuk golongan tertentu, yakni SIM A dan SIM C.
+            
+            Adapun bagi SIM yang telah habis masa berlakunya bahkan sehari saja, pemilik SIM harus membuat permohonan SIM baru di tempat yang telah ditentukan oleh Kepolisian.
+            
+            
+            Untuk biaya perpanjangan, sesuai dengan PP Nomor 76 Tahun 2020 tentang Jenis dan Tarif Atas Jenis Penerimaan Negara Bukan Pajak (PNBP) yang berlaku untuk Polri adalah Rp80.000 untuk perpanjangan SIM A dan Rp75.000 untuk perpanjangan SIM C.
+            
+            Selain biaya tersebut, pemohon juga perlu membayar biaya tambahan lainnya, yakni tes psikologi, biaya tes kesehatan melalui aplikasi Simpel Pol.
+          </p>
+        </div>
+
+        <!-- <div class="ad-box">
+          <h3>BOORCABIN</h3>
+          <p>
+            Nikmati diskon BOORCABIN untuk villa yang menawarkan pemandangan
+            underwater dari kamar Anda
+          </p>
+          <div class="discount">DISKON 5%</div>
+          <p>dengan kode DETIK5</p>
+          <p>Periode promo: 20 April - 31 Mei 2023</p>
+          <button class="ad-button">PESAN SEKARANG</button>
+        </div>
+      </div> -->
+
+      <div class="article-footer">
+        <p>Tags: #SIM #Keliling #2025 #Jakarta</p>
+        <!-- <p>Bagikan artikel ini:</p>
+        <div class="share-buttons">
+          <button class="share-button">Facebook</button>
+          <button class="share-button">Twitter</button>
+          <button class="share-button">WhatsApp</button>
+          <button class="share-button">Email</button>
+        </div> -->
+      </div>
+    </div>
+  </body>
+</html>
